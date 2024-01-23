@@ -76,7 +76,7 @@ img{
 
 
 footer{
-    background-color: grey;
+    background-color: #222222;
     height: 5vh;
 }
 
@@ -84,4 +84,30 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
+
+.bottom-logo{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.75rem;
+}
+
+.bottom-central{
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.fa-chevron-up{
+    font-size: initial;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.bottom-text{
+    color: white;
+    text-align: center;
+}
+
