@@ -1,3 +1,6 @@
+/* #region common */
+
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -9,8 +12,36 @@ body{
 
 main{
     height: 90vh;
+    position: relative;
 }
 
+i{
+    color: white;
+}
+
+span{
+    color: white;
+}
+/* #end region common */
+
+/* #region logo-top */
+.top-logo{
+    background-color: rgba(76, 76, 76, 0.5);
+    padding: 0.3rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+
+.left{
+    position: absolute;
+    padding: 0.25rem;
+    top: 1rem;
+    right: 2rem;
+}
+/* #end region logo-top */
+
+/* #region row */
 .row{
     display: flex;
     justify-content: center;
@@ -35,13 +66,14 @@ main{
     left: 0;
     background-color: rgba(76, 76, 76, 0.5);
     padding: 0.5rem;
-
 }
 
 img{
     width: 100%;
     height: auto;
 }
+/* #end region row */
+
 
 footer{
     background-color: grey;
