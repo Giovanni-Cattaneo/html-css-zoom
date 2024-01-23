@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    height: 94vh;
+
     position: relative;
 }
 
@@ -49,6 +49,8 @@ span{
     flex-wrap: wrap;
     position: relative;
     padding-top: 2.3rem;
+    height: 900px;
+    overflow-y: auto;
 }
 
 .img-box{
@@ -75,7 +77,8 @@ img{
 /* #region footer */
 footer{
     background-color: #222222;
-    height: 6vh;
+    height: 60px;
+    position: ;
 }
 
 .bottom-container{
@@ -91,11 +94,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     column-gap: 0.75rem;
-}
-
-.bottom-central{
-    display: flex;
-    font-size: 1.3rem;
 }
 
 .fa-chevron-up{
