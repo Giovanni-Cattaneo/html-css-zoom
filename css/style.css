@@ -1,6 +1,4 @@
 /* #region common */
-
-
 *{
     margin: 0;
     box-sizing: border-box;
@@ -29,14 +27,14 @@ span{
     background-color: rgba(76, 76, 76, 0.5);
     padding: 0.3rem;
     position: absolute;
-    top: 0.5rem;
+    top: 0.3rem;
     right: 0;
 }
 
 .left{
     position: absolute;
     padding: 0.25rem;
-    top: 1rem;
+    top: 0.3rem;
     right: 2rem;
 }
 /* #end region logo-top */
@@ -50,7 +48,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    padding-top: 2rem;
+    padding-top: 2.3rem;
 }
 
 .img-box{
@@ -74,7 +72,7 @@ img{
 }
 /* #end region row */
 
-
+/* #region footer */
 footer{
     background-color: #222222;
     height: 6vh;
@@ -120,4 +118,4 @@ footer{
     color: red;
     padding: 1.1rem;
 }
-
+/* #end region footer */
