@@ -11,7 +11,7 @@ body{
 }
 
 main{
-    height: 95vh;
+    height: 94vh;
     position: relative;
 }
 
@@ -29,7 +29,7 @@ span{
     background-color: rgba(76, 76, 76, 0.5);
     padding: 0.3rem;
     position: absolute;
-    top: 1rem;
+    top: 0.5rem;
     right: 0;
 }
 
@@ -77,7 +77,7 @@ img{
 
 footer{
     background-color: #222222;
-    height: 5vh;
+    height: 6vh;
 }
 
 .bottom-container{
@@ -101,13 +101,23 @@ footer{
 }
 
 .fa-chevron-up{
-    font-size: initial;
+    font-size: 0.75rem;
     align-items: center;
     column-gap: 1rem;
+}
+
+.fa-share-from-square{
+    color: green;
 }
 
 .bottom-text{
     color: white;
     text-align: center;
+}
+
+.bottom-text-right{
+    background-color: #4a4a4a;
+    color: red;
+    padding: 1.1rem;
 }
 
