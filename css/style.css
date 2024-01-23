@@ -11,7 +11,7 @@ body{
 }
 
 main{
-    height: 90vh;
+    height: 95vh;
     position: relative;
 }
 
@@ -46,16 +46,16 @@ span{
     display: flex;
     justify-content: center;
     column-gap: 1rem;
-    row-gap: 1.5rem;
+    row-gap: 1rem;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .img-box{
     width: calc(100% / 12 * 1.5);
-    align-self: center;
+    height: auto;
     position: relative;
 }
 
@@ -77,5 +77,11 @@ img{
 
 footer{
     background-color: grey;
-    height: 10vh;
+    height: 5vh;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
