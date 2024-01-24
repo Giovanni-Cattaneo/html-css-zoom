@@ -45,7 +45,6 @@ span{
     flex-wrap: wrap;
     position: relative;
     padding-top: 2.3rem;
-    height: 900px;
     overflow-y: auto;
     max-width: fit-content;
     width: 1080;
