@@ -47,10 +47,11 @@ span{
     padding-top: 2.3rem;
     height: 900px;
     overflow-y: auto;
+    max-width: fit-content;
+    width: 1080;
 }
 
 .img-box{
-    width: calc(100% / 12 * 1.5);
     height: auto;
     position: relative;
 }
